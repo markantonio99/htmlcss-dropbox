@@ -40,6 +40,10 @@ body{
     background-color: black;
 }
 
+.button{
+    background-color: #5791F0;
+}
+
 /* inizio header --------------------------*/
 
 .conteiner-header{
@@ -62,9 +66,26 @@ body{
 
 
 .one-section-header{
-    background-color: white;
+  
     padding: 10px 10px 0px 0px;
 }
 
 
+
 /* inizio prima sezione --------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
