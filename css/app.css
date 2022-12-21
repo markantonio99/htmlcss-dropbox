@@ -1,0 +1,70 @@
+*{
+    Margin:0:
+    Padding: 0;
+    Box-size: border-box;
+}
+    
+Img{
+    Max-width: 100%;
+    }
+        
+.container{
+    Max-width: 900px;
+    Margin: 0 auto;
+    }
+
+a {
+        text-decoration: none; 
+       }
+
+ul{
+    padding: 0px;
+    padding: 0px;
+    list-style:none;
+    display: inline-block;
+}       
+
+li{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.button{
+        padding: 10px;
+        border-radius: 15px;
+        font-weight: 700;
+    }
+
+body{
+    background-color: black;
+}
+
+/* inizio header --------------------------*/
+
+.conteiner-header{
+    max-width: 1920px;
+    max-height: 76px;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+.col-header{
+  display: flex;
+  flex-basis: calc(100& / 2);
+}
+
+
+
+.one-section-header{
+    background-color: white;
+    padding: 10px 10px 0px 0px;
+}
+
+
+/* inizio prima sezione --------------------------*/
