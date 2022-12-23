@@ -10,6 +10,7 @@ Img{
         
 a {
         text-decoration: none; 
+        color: inherit;
        }
 
 ul{
@@ -33,9 +34,9 @@ li{
     }
 
 body{
-    background-color: black;
-    width: 1920px;
-    height: 7185px;
+    max-width: 1920px;
+    max-height: 7185px;
+    margin: 0 auto
 
 }
 
@@ -52,23 +53,32 @@ body{
     font-size: 20px;
 }
 
+h3{
+    font-size: 27px;
+}
+
+
+
 /* inizio header --------------------------*/
 
 .conteiner-header{
     max-width: 1920px;
     max-height: 76px;
+    margin: 0 auto;
 }
 
 .row-header{
     display: flex;
     justify-content: space-between;
     background-color: white;
+
 }
 
 
 .col-header{
-  display: flex;
-  flex-basis: calc(100& / 2);
+    display: flex;
+    flex-basis: auto;
+   
 }
 
 
@@ -76,6 +86,8 @@ body{
 .one-section-header{
   
     padding: 10px 10px 0px 0px;
+    flex-grow: 1;
+
 }
 
 
@@ -83,22 +95,25 @@ body{
 
 
 .contaneir-hero{
-    width: 1920px;
-    height: 753px;
+    max-width: 1920px;
+    max-height: 753px;
     background-color: #B5D0E7;
+
 }
 
 
 .section-hero{
     padding-top: 10px;
-    width: 1182px;
-    height: 674px;
-    margin: 0 auto;
+    max-width: 1182px;
+    max-height: 674px;
+
+    
 }
 
 .row-hero{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 
 }
 
@@ -114,7 +129,7 @@ body{
 }
 
 .text-hero{
-    font-size: 20px;
+     font-size: 20px;
      margin-bottom:30px;
 }
 
@@ -125,8 +140,8 @@ body{
 
 
 .img-hero{
-    width: 798px;
-    height: 470px;
+    max-width: 798px;
+    max-height: 470px;
 }
 
 .botton-hero{
@@ -144,53 +159,66 @@ body{
 /* ------2 sezione --------------------*/
 
 
-.contaneir-two{
-    width: 1920px;
-    height: 1652px;
+.section-two{
+    max-width: 1920px;
+    max-height: 1652px;
     background-color: white;
+    margin: 0 auto;
 }
 
 
-.section-two{
-    padding-top: 10px;
-    width: 1002px;
-    height: 1524px;
+.contaneir-two{
+    max-width: 1002px;
+    max-height: 1524px;
     margin: 0 auto;
+   
 }
 
 .title-two{
   font-size: 50px;
-  padding-top: 50px;
+  padding-top: 90px;
 }
+
 .radio-section-two{
     font-size: 25px;
     padding-right: 20px;
+    padding-bottom: 30px;
 }
 
 .row-two{
     display: flex;
-    align-items: center;
-    background-color: green;
-    margin-top: 50px;
-
+    justify-content: center;
+    margin-left: -30px;
+    margin-right: -30px;   
 }
 
 .col-3{
     flex-basis: calc(100% / 3);
-    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 20px;
+    
 }
+
+.card{
+    border: 1px solid black;
+    max-width: 301px;
+    min-height: 954px;
+    padding: 10px;
+    
+}
+   
 
 .title-sec-two{
     text-align: center;
     padding: 0;
 }
 
-.one-two{
-    padding-left: 30px;
-}
+
 
 .ul-card-section-2{
-    margin-bottom: 3pc;
+    margin-bottom: 3px;
 }
 
 
@@ -214,6 +242,62 @@ body{
 }
 
 
+
+
+/* inizio sconda sezione finale  ----------------------------*/
+
+
+
+.contaneir-two-3{
+    padding-top: 10px;
+    max-width: 1002px;
+    max-height: 1524px;
+    margin: 0 auto;
+}
+
+.col-1{
+    text-align: center;
+    border: 1px solid black;
+    line-height: 0%;
+    min-width: 1001px;
+    max-height: 44px;
+}
+
+
+
+
+.row-two-two{
+    display: flex;
+    flex-wrap: wrap;
+ 
+  
+}
+
+
+.col_2_description{
+    flex-basis: 70%;    
+}
+
+
+.col_2_button{
+    flex-basis: 30%;
+    padding-top: 20px;
+   
+   
+}
+
+.btn-21{
+    margin: 0 auto;
+    background-color: #4386F3;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.sub-description{
+    padding: 40px 50px 0px 0px;
+}
 
 
 
