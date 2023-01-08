@@ -56,7 +56,9 @@ body{
 h3{
     font-size: 27px;
 }
-
+.col-100{
+    flex-basis: 100%;
+}
 
 
 /* inizio header --------------------------*/
@@ -106,6 +108,7 @@ h3{
     padding-top: 10px;
     max-width: 1182px;
     max-height: 674px;
+    margin: 0 auto;
 
     
 }
@@ -190,29 +193,43 @@ h3{
     justify-content: center;
     margin-left: -30px;
     margin-right: -30px;   
+    gap: 0px 20px:
 }
 
 .col-3{
     flex-basis: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     align-content: center;
-    padding: 0px 20px;
+    gap: 0px 300px;
     
 }
+
+.header-box{
+    border-bottom: 1px solid black;
+}
+
 
 .card{
     border: 1px solid black;
     max-width: 301px;
     min-height: 954px;
-    padding: 10px;
+    padding: 0px 10px;
+    margin-top: -27px;
+    line-height: 30px;
     
 }
    
 
 .title-sec-two{
+
     text-align: center;
-    padding: 0;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 118px;
+    
 }
 
 
@@ -227,6 +244,8 @@ h3{
     color: white;
     padding: 15px;
     font-size: 20px;
+    width: 100%;
+    flex-grow: 1;
 }
 
 .acq-ora{
@@ -269,6 +288,8 @@ h3{
 .row-two-two{
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 20px;
  
   
 }
@@ -301,4 +322,185 @@ h3{
 
 
 
+/* inizio terza sezione   ----------------------------*/
 
+.section-3{
+
+    max-width: 1104px;
+    max-height: 693px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-60{
+    flex-basis: 60%;
+}
+
+.col-40{
+    flex-basis: 40%;
+}
+
+.title-sec-3{
+    font-size: 35px;
+}
+
+.button-sez3{
+    display: block;
+    margin-top:10px;
+    border: 0.5px solid black;
+    padding: 10px;
+    max-width: 130px;
+    text-align: center;
+}
+/* fine terza sezione   ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INIZIO QUARTA sezione   ----------------------------*/
+
+
+.section-4{
+    max-width: 1920px;
+    max-height: 1666px;
+
+}
+
+.container-4{
+    max-width: 1104px;
+    min-height: 693px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.col-12{
+    flex-basis: calc(100% / 3);
+    padding-right: 20px;
+    flex-wrap: wrap;
+
+}
+
+.title-4{
+    font-size: 35px;
+}
+
+.sub-title_4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.title_fot_4{
+margin-top: 90px;
+}
+
+.clt_4{
+    text-decoration: underline;
+        color: blue;
+}
+
+
+/* FINE QUARTA sezione   ----------------------------*/
+
+/* INIZIO QUINTA sezione   ----------------------------*/
+
+
+
+
+.section-6{
+    width: 1920px;
+    height: 637px;
+    margin: 0 auto;
+   
+}
+
+.container-5{
+    width: 1920px;
+    height: 637px;
+  
+
+}
+
+.row-5{
+    display: flex;
+}
+
+.col-sec_5{
+    flex-basis: calc(100% / 3);
+    gap: 0px;
+    margin-top: 150px;
+}
+
+
+.sec-logo{
+    margin: 0px;
+}
+
+.logo_5{
+    aspect-ratio: 1;
+    max-width: 200px;
+    max-height: 200px;
+    margin: -2px;
+    
+}
+
+
+.sld_logo1{
+background-color: #A2D39B;
+padding: 10px;
+border: 6px solid rgb(255, 174, 0);
+
+}
+
+.sld_logo2{
+    background-color: #610C2B;
+    padding: 15px;
+}
+
+.sld_logo3{
+    background-color: #3AA8D3;
+    padding: 107px 17px 106px 17px;
+}
+
+.sld_logo4{
+    background-color: #FF2C1C;
+    padding: 25px 17px 25px 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE QUINTA sezione   ----------------------------*/
